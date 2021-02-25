@@ -1,0 +1,219 @@
+.root {
+	width: 100%;
+	height: 100%;
+	/* border: 1px solid black; */
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+
+.mainContainer {
+	width: 100%;
+	height: 100%;
+	min-height: 120vh;
+	border: 5px solid #0248ac;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	justify-content: flex-start;
+	position: relative;
+}
+
+.section1 {
+	width: 100%;
+	min-height: 10vh;
+	display: flex;
+	align-items: center;
+	justify-content: space-around;
+}
+
+.logo {
+	height: 55px;
+	padding-left: 20px;
+}
+
+.titleContainer {
+	background: #0248ac;
+	border-radius: 8px;
+	color: #ffffff;
+	min-width: 70%;
+	height: 55px;
+	display: flex;
+	justify-content: space-around;
+	align-items: center;
+}
+
+.title {
+	font-size: 30px;
+	line-height: 24px;
+	font-weight: 600;
+	/* identical to box height */
+
+	display: flex;
+	align-items: center;
+	text-align: center;
+	letter-spacing: 0.2em;
+
+	color: #ffffff;
+}
+.invoicenumcontainer {
+	display: flex;
+	align-items: center;
+}
+
+.subtitle {
+	font-size: 18px;
+
+	/* identical to box height */
+
+	display: flex;
+	align-items: center;
+	text-align: center;
+	letter-spacing: 0.2em;
+	margin-top: 9px;
+	color: #ffffff;
+	padding-left: 4px;
+}
+.subtitle1 {
+	font-size: 14px;
+
+	/* identical to box height */
+
+	display: flex;
+	align-items: center;
+	text-align: center;
+	letter-spacing: 0.2em;
+	margin-top: 10px;
+	color: #ffffff;
+	font-weight: 500;
+}
+.section2 {
+	display: flex;
+	flex-direction: column;
+	width: 100%;
+	padding-left: 50px;
+	padding-top: 60px;
+}
+
+.fieldname {
+	color: rgba(0, 0, 0, 0.45);
+	font-size: 20px;
+	letter-spacing: 0.2em;
+}
+
+.clientname {
+	letter-spacing: 0.1em;
+	font-size: 24px;
+	font-weight: 700;
+	color: #0248ac;
+	padding-left: 20px;
+}
+
+.date {
+	letter-spacing: 0.1em;
+	font-size: 21px;
+	font-weight: 500;
+	color: #0248ac;
+	padding-left: 15px;
+}
+.infoContainer {
+	padding: 14px 0px 10px 0px;
+}
+.info {
+	font-size: 18px;
+	line-height: 17px;
+	/* identical to box height */
+	padding: 5px 5px 5px 2px;
+	display: flex;
+	align-items: center;
+
+	color: rgba(2, 72, 172, 0.65);
+}
+.section3 {
+	width: 80%;
+	padding-top: 50px;
+}
+
+.section4 {
+	width: 60%;
+	display: flex;
+	align-items: center;
+	justify-content: flex-end;
+	padding-top: 50px;
+	font-size: 20px;
+	font-weight: 600;
+	letter-spacing: 0.1em;
+	color: #323232;
+}
+.price {
+	padding: 0px 15px;
+}
+.paymentheading {
+	font-size: 21px;
+	font-weight: 700;
+	letter-spacing: 0.1em;
+	color: #323232;
+}
+.paymentitem {
+	font-size: 19px;
+	font-weight: 500;
+	letter-spacing: 0.1em;
+	color: #323232;
+}
+
+.footer {
+	background-image: url(../../../public/invoice_footer.svg);
+	min-height: 10vh;
+	width: 100%;
+	background-size: cover;
+	position: absolute;
+	bottom: 0;
+	display: grid;
+	place-items: center;
+	font-size: 19px;
+	line-height: 14px;
+	letter-spacing: 0.2em;
+	color: #ffffff;
+}
+
+.footertext {
+	margin-top: 30px;
+}
+
+.table {
+	font-family: arial, sans-serif;
+	border-collapse: collapse;
+	width: 100%;
+	border-collapse: collapse;
+
+	border-style: hidden; /* hide standard table (collapsed) border */
+}
+
+.td,
+.th {
+	text-align: left;
+	padding: 8px;
+}
+.th {
+	background-color: #0248ac;
+	color: #ffffff;
+	letter-spacing: 0.2em;
+	font-weight: 600;
+}
+
+.tr:nth-child(even) {
+	background-color: #e3f3fe;
+	border-radius: 30px;
+}
+.tr {
+	height: 50px;
+	border-radius: 10px;
+}
+.section5 {
+	display: flex;
+	flex-direction: column;
+	width: 100%;
+	padding-left: 50px;
+	padding-top: 60px;
+	padding-bottom: 130px;
+}

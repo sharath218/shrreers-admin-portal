@@ -1,0 +1,12 @@
+.root {
+	width: 100%;
+	min-width: 80vw;
+	min-height: 50vh;
+}
+
+.buttonContainer {
+	display: flex;
+	justify-content: space-around;
+
+	padding: 5% 0%;
+}
